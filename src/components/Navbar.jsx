@@ -7,7 +7,7 @@ function Navbar() {
   return (
     <nav className="navbar">
       <div className="nav-container">
-        <div className="logo">JUNGKOOK</div>
+        <div className="logo">MINDU</div>
         <div className={`nav-links ${isMenuOpen ? "open" : ""}`}>
           <Link to="/" onClick={() => setIsMenuOpen(false)}>Home</Link>
           <Link to="/about" onClick={() => setIsMenuOpen(false)}>About</Link>
